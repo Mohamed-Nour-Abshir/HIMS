@@ -1437,5 +1437,22 @@ a:focus {
   opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
-
+/* latest notice css  */
+.title_design {
+  width: 400px;
+}
+.title_design::before {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 5px;
+  background: var(--primary-color);
+  top: 50px;
+  left: 28.3rem;
+  transition: 0.2s linear;
+  
+}
+.title_design:hover:before {
+  width: 14.7rem;
+}
 
