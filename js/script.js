@@ -1,10 +1,3 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
 (function ($) {
 	'use strict';
 
@@ -245,6 +238,7 @@
 			itemSelector: '.shuffle-item',
 			buffer: 1
 		});
+		myShuffle.filter('courses');
 		jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
 			var input = evt.currentTarget;
 			if (input.checked) {
