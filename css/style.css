@@ -1462,3 +1462,12 @@ a:focus {
   padding: 8px;
   text-align: center;
 }
+/* latest news css */
+.card{cursor: pointer;}
+.news_img{transition: 0.2s linear;}
+.card_top{
+  overflow: hidden;
+}
+.card:hover .news_img{
+  transform: scale(1.2);
+}
