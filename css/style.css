@@ -1471,3 +1471,9 @@ a:focus {
 .card:hover .news_img{
   transform: scale(1.2);
 }
+.teachers:before {
+  left: 24.3rem;
+}
+.teachers:hover:before {
+  width: 23rem;
+}
