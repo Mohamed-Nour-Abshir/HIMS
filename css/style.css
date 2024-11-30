@@ -24,6 +24,7 @@ body {
   color: #6F8BA4;
   font-weight: 400;
   overflow-x: hidden;
+  background: #dfeef0;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -495,6 +496,11 @@ a:focus {
 
 .bg-1 {
   background: url("../images/bg/22.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+.bg-admission {
+  background: url("../images/bg/admision.webp") no-repeat;
   background-size: cover;
   position: relative;
 }
